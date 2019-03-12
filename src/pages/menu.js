@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { PageHeader } from "../utils"
+import { PageHeader, Banner } from "../utils"
 import menuImg from "../images/bcg/menuBcg.jpeg"
 
 const MenuPage = () => {
@@ -10,7 +10,7 @@ const MenuPage = () => {
     <Layout>
       <SEO title="menu" keywords={[`gatsby`, `application`, `react`]} />
       <PageHeader img={menuImg}>
-        <h1>Hello from Menu</h1>
+        <Banner title="Our Menu" subtitle={`Let's dig in`} />
       </PageHeader>
     </Layout>
   )

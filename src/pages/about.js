@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { PageHeader } from "../utils"
+import { PageHeader, Banner } from "../utils"
 import aboutImg from "../images/bcg/aboutBcg.jpeg"
 
 const AboutPage = () => {
@@ -10,7 +10,7 @@ const AboutPage = () => {
     <Layout>
       <SEO title="about" keywords={[`gatsby`, `application`, `react`]} />
       <PageHeader img={aboutImg}>
-        <h1>Hello from about</h1>
+        <Banner title="About Us" subtitle="A little about us" />
       </PageHeader>
     </Layout>
   )
