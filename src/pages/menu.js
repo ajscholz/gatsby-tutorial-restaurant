@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { PageHeader, Banner } from "../utils"
 import menuImg from "../images/bcg/menuBcg.jpeg"
+import Menu from "../components/HomePageComponents/Menu"
 
 const MenuPage = () => {
   return (
@@ -12,6 +13,7 @@ const MenuPage = () => {
       <PageHeader img={menuImg}>
         <Banner title="Our Menu" subtitle={`Let's dig in`} />
       </PageHeader>
+      <Menu />
     </Layout>
   )
 }
